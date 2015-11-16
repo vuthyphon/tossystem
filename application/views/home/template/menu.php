@@ -65,8 +65,8 @@ $menu=$this->uri->segment(1);//get class to active menu
                             <i class="fa fa-users icon-large"></i> <b>User</b>
                         </a>
                     </li>
-                    <li class="<?php echo $menu=='profile' ? 'active' :'' ?>">
-                        <a href="#">
+                    <li class="<?php echo $menu=='setting' ? 'active' :'' ?>">
+                        <a href="<?php echo base_url('setting')?>">
                             <i class="fa fa-cogs icon-large"></i><b>Setting</b>
                         </a>
                     </li>
